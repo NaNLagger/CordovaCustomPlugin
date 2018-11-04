@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova.plugin.test": {
+    "source": {
+      "type": "local",
+      "path": "D:\\Projects\\MyApp\\node_modules\\cordova.plugin.test"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
