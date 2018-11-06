@@ -11,6 +11,9 @@
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:label="New Activity" android:name="cordova.plugin.test.WebViewActivity"></activity>
+        </config-file>
         <source-file src="src/android/CustomPlugin.java" target-dir="src/cordova/plugin/test/CustomPlugin" />
     </platform>
 </plugin>
